@@ -1,0 +1,38 @@
+README
+
+Project: Health Insurance Cost Prediction with Regression
+
+Project Insights:
+
+Description:
+
+I worked on a project focused on predicting health insurance costs using a comprehensive dataset. The dataset consisted of 1337 entries with various attributes, including age, sex, BMI, number of children, smoker status, region, and charges.
+
+Key Insights and Findings:
+
+Data Overview: 
+      The dataset was clean with no missing values and included relevant features for cost prediction. There is one duplicate value in the data so just drop the duplicate value from the data. 
+
+Exploratory Data Analysis (EDA):
+      * The average age of individuals was 39.21 years, and the average BMI was 30.66.
+      * The dataset had an almost equal distribution of males (675) and females (662), with 1063 non-smokers and 274 smokers.
+
+Visualizations:
+      * Highlighted the distribution of age, BMI, and charges.
+      * Compared smoker vs. non-smoker costs and charges by region.
+
+Correlation Analysis:
+      * Found that smoker status had the highest positive correlation with charges (0.787), indicating smokers incur significantly higher costs.
+      * Age and BMI also showed moderate positive correlations with charges.
+
+Modeling:
+      * Prepared the dataset by converting categorical variables to numerical values.
+      * Split the data into training and testing sets to develop predictive models.
+
+This project helped in understanding the key factors influencing health insurance costs and the importance of certain attributes like smoker status, age, and BMI in predicting these costs.
+
+Tools and Technologies Used:
+
+Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn)
+Data Analysis and Visualization
+Machine Learning Algorithms (Linear Regression, SVR, Random Forest, Gradient Boosting)
